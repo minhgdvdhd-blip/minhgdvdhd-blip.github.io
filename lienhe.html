@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Ký Tư Vấn - Đại học Đại Nam</title>
+    <link rel="stylesheet" href="lienhe.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Liên hệ với Đại học Đại Nam</h1>
+            <p>Chúng tôi luôn sẵn sàng hỗ trợ bạn. Hãy gửi câu hỏi hoặc yêu cầu của bạn qua mẫu dưới đây.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Để lại thông tin liên hệ</h2>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="full-name">Họ và tên:</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Nhập họ và tên của bạn" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Số điện thoại:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại của bạn" required>               
+                </div>
+                <div class="form-group">
+                    <label for="message">Nội dung:</label>
+                    <textarea id="message" name="message" placeholder="Nhập nội dung câu hỏi hoặc yêu cầu của bạn" rows="5" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Gửi</button>
+                </div>
+            </form>
+        </section>
+    </main>
